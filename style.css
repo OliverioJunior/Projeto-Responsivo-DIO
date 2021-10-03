@@ -14,11 +14,15 @@ ul li a{
     text-decoration: none;
 }
 
+div img{
+    display: block;
+    width: 100%;
+}
 .flex-container{
     display: flex;
-    max-width: 992px;
+    max-width: 100vw;
     margin: auto;
-    flex-direction: column;
+    width: 100%;
 }
 
 header{
@@ -26,12 +30,72 @@ header{
     background: #122A57;
     align-items: center;
     justify-content: space-evenly;
-    
+    height: 100px;
+    width: 100vw;
+    color: white;
 }
 
-.menu{
+.lista{
      display:flex;
-     flex-grow: initial;
+      justify-content: space-evenly;
+}
+.lista a {
+    color: white;
+    margin: 20px;
+}
+.apresentação{
+    flex-direction: row;
+    height:100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentação .texto-apresentação{
+    min-height: 200px;
 }
 
+.texto-apresentação h1{
+    color: #122A57;
+    margin-bottom: 10px;
+    font-size: 48px;
+}
+.texto-apresentação{
+    margin: 150px;
+}
+.texto-apresentação a{
+    background:#122A57 ;
+    color: white;
+    text-align: center;
+    width: 180px;
+    height: 30px;
+    border-radius: 20px;
+    display: block;
+    text-decoration: none;
+    line-height: 1.9;
+    letter-spacing: 2px;
+    margin-top: 20px ;
 
+}
+
+#quem-somos{
+     flex-direction: row-reverse;
+     align-items: center;
+     justify-content: space-between;
+}
+#quem-somos p{
+     margin-bottom: 10px;
+     width: 90%;
+}
+#quem-somos h2{
+     font-size: 32px;
+     color: #122A57; 
+     display: flex;
+     margin-bottom: 20px;
+}
+#quem-somos h2::before{
+     content: "";
+     height: 50px;
+     width: 5px;
+     margin-right: 5px;
+     background:#122A57 ;
+     position: relative;
+}
