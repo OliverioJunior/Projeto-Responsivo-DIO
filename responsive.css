@@ -24,7 +24,7 @@
         padding-left: 20px;
     }
     #quem-somos img{
-        min-width: 320px;
+        min-width: 50%;
         margin: auto;
     }
 
@@ -47,5 +47,8 @@
         max-width: 90%;
         margin: auto;
         width: 100%;
+    }
+    #div{
+        display: none;
     }
 }
