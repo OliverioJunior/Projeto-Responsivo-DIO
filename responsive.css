@@ -3,7 +3,10 @@
         flex-direction: column;
     }
     header{
-        align-items: baseline;
+        
+        position: absolute;
+        font-size: 14px;
+        flex-direction: column;
     }
     .apresentação{
         flex-direction: column-reverse;
@@ -12,9 +15,13 @@
         
         width: 100%;
     }
+   .texto-apresentação {
+       padding-left: 40px;
+    }
 
     #quem-somos{
         flex-direction: column-reverse;
+        padding-left: 20px;
     }
     #quem-somos img{
         min-width: 320px;
